@@ -187,9 +187,9 @@ var addnewItemToInventory = function() {
                 console.log(colors.blue("    " + answer.add_item + " was successfully added!\n"));
                 console.log(table.toString()+"\n");
                 Supervisor();
-            })
-        })
-    })
+            })//End query to populate confirmation table
+        })//End query to add new item
+    })//End inquirer fx
 } //End addItemToInventory fx
 
 
